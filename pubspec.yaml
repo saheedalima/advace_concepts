@@ -31,6 +31,14 @@ dependencies:
   flutter:
     sdk: flutter
   google_maps_flutter: ^2.3.0
+  shared_preferences: ^2.1.2
+  sqflite: ^2.2.8+4
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  email_validator:
+  get:
+  provider: ^6.0.5
+  permission_handler: ^10.4.1
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -40,6 +48,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  build_runner:              #to run command and create files
+  hive_generator:            #hivinte functionality aayond hive generator
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
