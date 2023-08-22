@@ -10,7 +10,6 @@ class HiveRegistration extends StatelessWidget {
   final remail_controller=TextEditingController();
   final rpassword_controller=TextEditingController();
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
